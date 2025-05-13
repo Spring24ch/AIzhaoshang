@@ -1,0 +1,5 @@
+cache_dir: null
+lang: zh
+last_model: DeepSeek-Coder-6.7B-Base
+path_dict:
+  DeepSeek-Coder-6.7B-Base: /root/autodl-tmp/deepseek-coder-1.3b-base
