@@ -1,5 +1,5 @@
 # 项目说明
-
+在AI赛道复赛的Java代码补全任务中优化Deepseek-Coder-1.3B模型的性能.
 本项目旨在指导如何下载数据集、创建SFT和DPO数据集、清洗数据集以及使用llamafactory-cli进行训练。
 
 ## 目录
