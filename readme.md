@@ -22,7 +22,7 @@ python filtering.py \
     --filters basic,comments,stars,fertility \
     --hub_username loubnabnl \
     --remote_repo test_filter_pipeline_java
-
+```
 
 
 ## 3. 使用llamafactory-cli进行SFT和DPO训练
@@ -67,9 +67,12 @@ llamafactory-cli train \
     --lora_alpha 16 \
     --lora_dropout 0 \
     --lora_target all
+```
 
-###DPO训练示例
+### DPO训练示例
+
 以下是一个使用llamafactory-cli工具进行直接偏好优化（Direct Preference Optimization, DPO）训练的命令示例。请根据您的实际需求调整参数。
+
 ```bash
 llamafactory-cli train \
     --stage dpo \
@@ -106,6 +109,5 @@ llamafactory-cli train \
     --lora_dropout 0 \
     --lora_target all \
     --pref_beta 0.1 \
-    --pref_ftx 0 \
-    --pref_loss sigmoid
-    
+    --pref_ftx 0 
+```
